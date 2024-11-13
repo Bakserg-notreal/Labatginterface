@@ -28,3 +28,15 @@ tg.MainButton.show();
 Telegram.WebApp.onEvent("mainButtonClicked", function () {
 tg.sendData(item);
 });
+web_app=WebAppInfo(url="https://zxcomegalul.github.io/LabInterface")
+keyboard = ReplyKeyboardMarkup(
+ keyboard=[
+ [KeyboardButton(text="Детали",
+web_app=web_app)]
+ ],
+ resize_keyboard=True
+)
+DISC = {
+    '1': 'Материнская плата является связующим звеном всех комплектующих компьютера', 
+    '2': 'Жёсткий диск является памятью компьютера'
+}
